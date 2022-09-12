@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PredictorApp-Admin</title>
+</head>
+<body>
+    <a href="index.html" class="button">Volver</a>
+    <form id="predictions-form" style="margin-left: 25%; margin-right: 25%; padding-left: 5%; padding-bottom: 5%; border: thin solid black; background-color: gainsboro">
+            <div id="titulo"><h3>Fecha: </h3></div>
+            <label for="titulo_diagnostico">Diagnostico: </label>
+            <input type="text" id="diagnostico"> <br>
+            <label for="titulo_porcentaje" style="margin-top: 2%;">Porcentaje de acierto: </label>
+            <input type="text" id="porcentaje" style="margin-top: 2%;"> <br>
+            <label for="titulo_posible_diag" style="margin-top: 2%;">Posible diagnóstico: </label>
+            <input type="text" id="posible_diagnostico" style="margin-top: 2%;"> <br>
+            <button class='btn-editarPred' data-id="btn-editarPred" style="margin-top: 5%; margin-right: 25%;">Editar prediccion</button>
+            <button class='btn-borrarPred' data-id="btn-borrarPred" style="margin-top: 5%;">Borrar prediccion</button>
+        
+    </form>
+
+    <script type="module" src="./datosClinicos.js"></script>
+</body>
+</html>
